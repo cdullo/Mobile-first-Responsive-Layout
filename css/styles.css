@@ -1,0 +1,101 @@
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+}
+
+body {
+    padding: 5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Muli', sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+}
+
+.top {
+    float: right;
+   
+}
+
+.name {
+    float: left;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(240, 127, 255);
+}
+
+.home {
+    border-style: groove;
+    border-color: blue;
+    font-family: 'Muli', sans-serif;
+    margin: 10px;
+}
+
+.contact {
+    border-style: groove;
+    border-color: blue;
+    font-family: 'Muli', sans-serif;
+    margin: 10px;
+}
+
+.portfolio {
+    border-style: groove;
+    border-color: blue;
+    font-family: 'Muli', sans-serif;
+    margin: 10px;
+}
+
+img.selfie {
+    display: block;
+    margin: 0px auto;
+}
+
+@media (min-width: 768px) {
+    .selfie {
+        display: block;
+        margin: 0px auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .selfie {
+        display: block;
+        margin: 0px auto;
+    }
+}
